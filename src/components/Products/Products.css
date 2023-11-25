@@ -1,0 +1,13 @@
+.products-wrapper {
+    width: 100%;
+    padding: 50px 10%;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+  }
+  
