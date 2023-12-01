@@ -12,7 +12,6 @@ const HeaderCartButton = ({ onShowCart }) => {
   const totalItemsInCart = cartCtx.items.reduce((acc, currentItem) => {
     return acc + currentItem.amount;
   }, 0);
-  console.log("totalItemsInCart", totalItemsInCart);
 
   return (
     <button className="button" onClick={onShowCart}>

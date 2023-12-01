@@ -1,0 +1,33 @@
+.product-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .product-form > div {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .product-form label {
+    margin-bottom: 4px;
+    font-weight: bold;
+  }
+  
+  .product-form button {
+    width: 50%;
+    margin: auto;
+    margin-top: 4px;
+  }
+  
+  .product-form input {
+    outline: none;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+  }
